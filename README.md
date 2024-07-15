@@ -2,20 +2,21 @@
 
 Este é um projeto layout de um site de manutenção de automóveis utilizando o [Next.js](https://nextjs.org/).
 
+&nbsp;
 ## 👨🏻‍💻 Começando...
 
 Primeiro, execute os seguintes comandos no cmd:
 
 ```bash
 npm install
-# em seguida
+```
+```bash
 npm run dev
 ```
 
-Abra [http://localhost:3000](http://localhost:3000) com seu navegador para ver o projeto.
+Digite no seu navegador a URL `http://localhost:3000` para ver o projeto.
 
----
-
+&nbsp;
 ## 💻/📱 Layouts do projeto
 
 O projeto contem responsividade em todas as páginas.
