@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## DevMotors
 
-## Getting Started
+Este é um projeto layout de um site de manutenção de automóveis utilizando o [Next.js](https://nextjs.org/).
 
-First, run the development server:
+## 👨🏻‍💻 Começando...
+
+Primeiro, execute os seguintes comandos no cmd:
 
 ```bash
+npm install
+# em seguida
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000) com seu navegador para ver o projeto.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 💻/📱 Layouts do projeto
 
-## Learn More
+O projeto contem responsividade em todas as páginas.
 
-To learn more about Next.js, take a look at the following resources:
+- Home page (Home, serviços e contatos)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<div class="div-web">
+  &nbsp;&nbsp;<img width="509" height="293" src="./github/images/home-page.png" />&nbsp;&nbsp;
+  &nbsp;&nbsp;<img width="509" height="293" src="./github/images/sevicos-e-contatos.png" />&nbsp;&nbsp;
+</div>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+##
+- Home page mobile
 
-## Deploy on Vercel
+<div class="div-mobile">
+  &nbsp;&nbsp;<img width="129" height="280" src="./github/images/Home-page-mobile.png" />&nbsp;&nbsp;
+  &nbsp;&nbsp;<img width="129" height="280" src="./github/images/Home-page-menu-mobile.png" />&nbsp;&nbsp;
+  &nbsp;&nbsp;<img width="129" height="280" src="./github/images/servicos-mobile.png" />&nbsp;&nbsp;
+  &nbsp;&nbsp;<img width="129" height="280" src="./github/images/contatos-mobile.png" />&nbsp;&nbsp;
+</div>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+##
+- Página de serviço (Troca de óleo)
+<div class="div-servicos">
+  &nbsp;&nbsp;<img width="509" height="293" src="./github/images/troca-de-oleo-web.png" />&nbsp;&nbsp;  
+  &nbsp;&nbsp;<img width="129" height="280" src="./github/images/troca-de-oleo-mobile.png" />&nbsp;&nbsp;
+</div>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<style>
+  .div-mobile{
+    display: inline-flex;
+    width: 100%;    
+    justify-content: space-around;
+    align-items: center;   
+  }
+</style>
+
+<style>
+  .div-web{
+    display: flex;
+    width: 100%;    
+    gap: 5px;
+    justify-content: center;
+    align-items: center;      
+  }
+</style>
+
+<style>
+.div-servicos{
+  display: flex;
+  width:100%;
+  gap:10px;
+  justify-content: center;
+  align-items: center;
+}
+</style>
